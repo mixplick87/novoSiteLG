@@ -9,7 +9,7 @@
  * @version 1.0.0 (18/09/2014 | 16:46)
  * 
  */
-class Conexao {
+class Conexao extends PDOConnectionFactory {
 
     var $host;
     var $user;
