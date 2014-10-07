@@ -35,11 +35,7 @@ class Cliente {
 
     /**
      * 
-     * @internal function automatica para get's e set's de qualquer variavel Cliente
-     * 
-     */
-
-    /**
+     * @internal function automatica para set's de qualquer variavel Cliente
      * 
      * @param Variavel $param
      * @param Valor $value
@@ -51,6 +47,7 @@ class Cliente {
     }
 
     /**
+     * * @internal function automatica para get's de qualquer variavel Cliente
      * 
      * @param Variavel $var
      * @return Variavel->valor
