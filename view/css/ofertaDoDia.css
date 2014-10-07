@@ -1,0 +1,346 @@
+/* 
+    Created on : Oct 7, 2014, 4:31:10 PM
+    Author     : Diego
+*/
+
+.ofertaDoDia {
+    border:1px solid #ccc;
+    width:960px;
+    margin:0 auto;
+    margin-top:-1px;
+    padding-bottom:50px;
+}
+.ODDtopo {
+    height:150px;
+    overflow:visible;
+    background:#fad644 url(https://www.lojasguaibim.com.br/images/ofertaDoDiaTopo.gif) no-repeat 0 0; 
+    position:relative;
+}
+.ofertaDoDia .ODDrelogio {
+    background:url(https://www.lojasguaibim.com.br/images/ofertaDoDiaRelogio.png) no-repeat 0 0;
+    height:150px;
+    width:150px;
+    float:left;	
+    position:absolute;
+    top:20px; 
+    left:45px;
+}
+.ofertaDoDia h1 {
+    color:#333;
+    width:400px;
+    font-size:50px;
+    float:left;
+    position:absolute;
+    left:240px;
+    top:45px;
+    line-height:32px;
+    font-weight:normal;
+    text-shadow: 2px 2px 0 rgba(255,255,255,0.5);
+}
+.ofertaDoDia h1 small {
+    color:#6b5716;
+    font-size:28px;	
+}
+.ofertaDoDia .boxSocial {
+    width:300px;
+    margin:0 auto;
+    text-align:center;	
+}
+.ofertaDoDia .ODDcontador {
+    width: 300px;
+    height: 90px;
+    float: right;
+    margin: 30px 30px 0 0;
+}
+.ofertaDoDia .ODDcontador p {
+    text-align:center;
+    margin-bottom:10px;
+}
+.ofertaDoDia .ODDcontador p.horas {
+    width: 72px;
+    display: inline-block;
+    margin: 0 16px 0 26px;
+}
+.ofertaDoDia .ODDcontador p.minutos {
+    width: 72px;
+    display: inline-block;
+    margin: 0 15px 0 0;
+}
+.ofertaDoDia .ODDcontador p.segundos {
+    width: 72px;
+    display: inline-block;
+    margin:0;
+}
+.ofertaDoDia .ODDesquerda {
+    width:500px;
+    padding-top:50px;
+    height:400px;
+    float:left;	
+    text-align:center;
+}
+.ofertaDoDia .ODDdireita {
+    width:450px;
+    height:auto;
+    float:right;	
+}
+.ofertaDoDia .ODDdireita h2 {
+    color:#333;
+    font-weight:bold;
+    width:400px;
+    font-size:30px;
+    line-height:32px;
+    margin:50px 0 30px 0;
+}  
+.ofertaDoDia .ODDbox {
+    border:1px solid #ffde00;
+    background:#fff;
+    width:400px;
+    box-shadow:1px 1px 0 rgba(0,0,0,0.1);	
+    padding:35px 0 30px 50px;
+    overflow:hidden;
+    position:relative;
+}
+.ofertaDoDia .ODDsoHoje {
+    background: #ffde00;
+    color: #000;
+    font-weight: bold;
+    font-size: 21px;
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    padding: 3px 75px;
+    position: absolute;
+    right: -70px;
+    text-transform: uppercase;
+    top: 12px;
+}
+.ofertaDoDia .ODDbox p {
+    margin:0 !important;
+}
+.ofertaDoDia .ODDbox .ODDprecode {
+    color:#ccc;	
+    text-decoration:line-through;
+    font-size:16px;
+}
+.ofertaDoDia .ODDbox .ODDporapenas {
+    color:#000;	
+    font-size:21px;
+    font-weight:bold; 
+}
+.ofertaDoDia .ODDbox .ODDprecopor {
+    color:#db0026;	
+    font-size:44px;
+    font-weight:bold;
+}
+.ofertaDoDia .ODDbox .ODDprecopor span {
+    color:#666;	
+    font-size:18px;
+    font-weight:normal;
+}
+.ofertaDoDia .ODDbox .ODDbotaoComprar {
+    /* background:#db0026 url(https://www.lojasguaibim.com.br/../images/internas/cart.png) no-repeat 20px 50%; */
+    background:#db0026;
+    border-bottom: rgba(0,0,0,0.25) 4px solid;
+    padding:10px 30px;
+    margin:10px 0 10px 0;
+    display:block;
+    text-align:center;
+    text-transform:uppercase;
+    border-radius:5px;
+    width:260px;
+    font-size:21px;
+    font-weight:bold;
+    text-shadow:2px 2px 0 rgba(0,0,0,0.25);
+    color:#fff;	
+    transition:all 0.5s;
+}
+.ofertaDoDia .ODDbox .ODDbotaoComprar:hover {
+    border-radius:30px;
+    transition:ease 0.5s;
+    /* background:#db0026 url(https://www.lojasguaibim.com.br/../images/internas/cart.png) no-repeat 200px 50%; */
+}
+.ofertaDoDia .ODDbox .ODDbotaoComprar:active {
+    border-bottom: rgba(0,0,0,0.25) 2px solid;
+    margin:12px 0 10px 0;
+}
+.ofertaDoDia .ODDbox .ODDdesconto {
+    color:#666;
+    font-size:14px;
+    display:block;
+    text-align:center;
+    width:260px;
+    padding:0 30px;
+}
+.ofertaDoDia .ODDbox .ODDdesconto strong {
+    color:#db0026;
+}
+.ofertaDoDia .ODDbox .ODDbotaoMaisDetalhes {
+    background:#009a4f;
+    border-bottom: rgba(0,0,0,0.25) 4px solid;
+    text-transform:uppercase;
+    display:block;
+    text-align:center;
+    color:#fff;
+    font-weight:bold;
+    border-radius:5px;
+    margin:20px 0 0 0;
+    font-size:16px;	
+    width:260px;
+    padding:5px 30px;
+    transition:ease 0.5s;
+}
+.ofertaDoDia .ODDbox .ODDbotaoMaisDetalhes:hover {
+    border-radius:30px;
+    transition:ease 0.5s;
+}
+.ofertaDoDia .ODDbox .ODDbotaoMaisDetalhes:active {
+    padding:6px 30px 4px 30px;
+}
+.ofertaDoDia .ODDtextoLegal {
+    width:400px;
+    padding:0 30px;
+    text-align:center;
+    font-size:12px;
+    line-height:14px;
+    color:#666;
+    margin-top:20px;
+}
+.ofertaDoDia .ODDtextoLegal a {
+    color:#db0026;
+    text-decoration:underline;
+}
+.ofertaDoDia .ODDtextoLegal a:hover {
+    text-decoration:none;
+}
+.ofertaDoDia .ODDtarjaEsgotado {
+    display:none;
+    background: #ffde00;
+    opacity: 0.85;
+    color: #000;
+    font-weight: bold;
+    font-size: 82px;
+    -webkit-transform: rotate(-4deg);
+    -moz-transform: rotate(-20deg);
+    padding: 3px 125px;
+    position: absolute;
+    left: -100px;
+    text-transform: uppercase;
+    letter-spacing: -0.05em;
+    top: 130px;
+}
+.ofertaDoDia .esgotado .ODDtarjaEsgotado {
+    display:block;
+}
+.ofertaDoDia .esgotado .ODDsoHoje {
+    display:none;
+}
+.ofertaDoDia .esgotado .ODDbotaoComprar {
+    background:#ccc;
+    color:#666;	
+    border:0;
+}
+.ofertaDoDia .ODDmais {
+    width:860px;
+    margin-left:50px;	
+    overflow: auto;
+}
+.ofertaDoDia .ODDmais h3 {
+    color:#333;
+    font-size:21px;
+    margin:50px 0 -12px 0;
+}
+.ofertaDoDia .ODDmais h3 span {
+    background:#fff;
+    padding-right:30px;
+}
+.ofertaDoDia .ODDmais .linhaPreta {
+    height:1px;
+    display:block;
+    background:#ccc;
+}
+.ofertaDoDia .ODDmais .ODDboxJaPassou {
+    width:260px;
+    border:1px solid #ffde00;
+    float:left; 
+    cursor: default;
+    background:#fff;
+    box-shadow:1px 1px 0 rgba(0,0,0,0.1);	
+    margin:30px 40px 0 0;
+    position:relative;
+    overflow:hidden;
+}
+.ofertaDoDia .ODDmais .ODDboxJaPassou .finalizado {
+    background: #ffde00;
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+    -webkit-transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+    padding: 3px 75px;
+    position: absolute;
+    left: -72px;
+    text-transform: uppercase;
+    top: 15px;
+}
+.ofertaDoDia .ODDmais>div:nth-child(5) {
+    margin-right:0;
+}
+.ofertaDoDia .ODDmais .ODDboxJaPassou img {
+    float:left;
+    margin:10px;
+}
+
+.ofertaDoDia .ODDmais .ODDboxJaPassou p, .ofertaDoDia .ODDmais .ODDboxJaPassou h4 {
+    float:right;
+    font-weight:bold;
+    width:125px;
+}
+.ofertaDoDia .ODDmais .ODDboxJaPassou h4 {
+    margin:15px 5px 0 0;
+    color:#666;
+    font-size:14px;
+}
+.ofertaDoDia .ODDmais .ODDboxJaPassou p {
+    margin:5px 5px 10px 0;
+    font-size:16px;
+    color:#333;
+}
+.ofertaDoDia .ODDmais .ODDboxJaPassou p strong {
+    margin:5px 5px 10px 0;
+    color:#db0026;
+}
+.ofertaDoDia .ODDnewsletter {
+    background:url(../images/ofertaDoDiaNewsletter.gif) no-repeat 0 0;
+    margin:50px 0 -50px 0;
+    height:180px;
+    padding:30px 50px;
+    text-shadow: 2px 1px 0 rgba(0,0,0,0.25);
+}
+.ofertaDoDia .ODDnewsletter h3 {
+    color:#fff;
+    font-size:21px;
+}
+.ofertaDoDia .ODDnewsletter .ODDtitulo {
+    margin:20px 0 30px 0;
+    color:#fbbdc3;
+    width:250px;
+    float:left;
+}
+.ofertaDoDia .ODDnewsletter .ODDtitulo strong {
+    color:#fff;	
+    font-size:16px;
+}
+.ofertaDoDia .ODDnewsletter form {
+    width:510px;
+    float:right;
+    text-align:right;
+    margin-top:20px;
+}
+.ofertaDoDia .ODDnewsletter form input {
+    padding:10px;
+    margin-left: 15px;
+}
+.ofertaDoDia .ODDnewsletter form input[type=submit] {
+    background:#009a4f;
+    color:#fff;
+    font-weight:bold;
+}

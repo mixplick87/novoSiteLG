@@ -1,5 +1,6 @@
 <?php
-namespace lib\conexao;
+
+namespace SiteLg\lib;
 
 class conexao {
 

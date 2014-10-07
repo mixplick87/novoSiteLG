@@ -1,13 +1,11 @@
 <?php
+
+namespace SiteLg\view\pages;
+
+
 include '../../lib/conexao.class.php';
-use lib\conexao;
 ?>
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
     <head>
         <meta charset="UTF-8">
@@ -17,7 +15,7 @@ and open the template in the editor.
         <?php
         $cd_itprod = "631850";
 
-        $con = new lib\conexao\conexao();
+        $con = new \SiteLg\lib\conexao;
         $con->host = "localhost";
         $con->user = "root";
         $con->pass = "";
