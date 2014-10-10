@@ -12,6 +12,9 @@
  * @version 1.0.0 (18/09/2014 | 15:40)
  * 
  */
+
+namespace SiteLg\app\model\cliente;
+
 class Cliente {
 
     var $email;
